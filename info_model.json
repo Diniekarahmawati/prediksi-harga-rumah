@@ -1,0 +1,29 @@
+{
+  "nama_model": "Gradient Boosting",
+  "parameter": {
+    "learning_rate": 0.1,
+    "max_depth": 4,
+    "n_estimators": 600,
+    "subsample": 0.8
+  },
+  "mape_test_persen": 22.95,
+  "mae_test_rp": 900758744,
+  "r2_log_test": 0.9194,
+  "fitur": [
+    "land_size_m2",
+    "building_size_m2",
+    "bedrooms",
+    "bathrooms",
+    "carports",
+    "garages",
+    "floors",
+    "electricity",
+    "lat",
+    "long",
+    "city",
+    "certificate",
+    "property_condition",
+    "furnishing"
+  ],
+  "jumlah_data_train": 2522
+}
