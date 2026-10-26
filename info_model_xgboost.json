@@ -1,0 +1,30 @@
+{
+  "nama_model": "XGBoost",
+  "parameter": {
+    "learning_rate": 0.05,
+    "max_depth": 6,
+    "min_child_weight": 5,
+    "n_estimators": 600
+  },
+  "mape_test_persen": 22.18,
+  "mae_test_rp": 908749137,
+  "r2_log_test": 0.9226,
+  "r2_log_train": 0.9921,
+  "fitur": [
+    "land_size_m2",
+    "building_size_m2",
+    "bedrooms",
+    "bathrooms",
+    "carports",
+    "garages",
+    "floors",
+    "electricity",
+    "lat",
+    "long",
+    "city",
+    "certificate",
+    "property_condition",
+    "furnishing"
+  ],
+  "jumlah_data_train": 2522
+}
