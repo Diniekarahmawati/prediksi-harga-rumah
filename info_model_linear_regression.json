@@ -1,0 +1,25 @@
+{
+  "nama_model": "Linear Regression",
+  "parameter": "default (tanpa tuning)",
+  "mape_test_persen": 29.53,
+  "mae_test_rp": 1213370590,
+  "r2_log_test": 0.8917,
+  "r2_log_train": 0.9032,
+  "fitur": [
+    "land_size_m2",
+    "building_size_m2",
+    "bedrooms",
+    "bathrooms",
+    "carports",
+    "garages",
+    "floors",
+    "electricity",
+    "lat",
+    "long",
+    "city",
+    "certificate",
+    "property_condition",
+    "furnishing"
+  ],
+  "jumlah_data_train": 2522
+}
